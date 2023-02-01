@@ -31,7 +31,7 @@ export const fetchCountries = name => {
           Notify.failure('Oops, there is no country with that name');
         }
       })
-    //   .catch(() => Notify.failure('Oops, there is no country with that name'));
+      .catch(() => Notify.failure('Oops, there is no country with that name'));
   };
   
   
